@@ -22,6 +22,7 @@ struct ProfileView: View {
             .navigationTitle("Profile")
             .toolbarBackground(Color("secondary pink"), for: .navigationBar)
         }
+        .navigationViewStyle(.stack)
     }
 }
 

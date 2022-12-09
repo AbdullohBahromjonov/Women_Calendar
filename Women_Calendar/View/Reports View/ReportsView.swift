@@ -35,6 +35,7 @@ struct ReportsView: View {
             .toolbarBackground(Color("secondary pink"), for: .navigationBar)
             .toolbar(goToDetails ? .hidden : .visible, for: .tabBar)
         }
+        .navigationViewStyle(.stack)
     }
 }
 

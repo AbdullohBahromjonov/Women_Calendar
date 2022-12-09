@@ -65,6 +65,5 @@ struct ReportsDetailView: View {
 struct ReportsDetailView_Previews: PreviewProvider {
     static var previews: some View {
         ReportsDetailView(daysDetails: .constant([Days(date: "20.20.2020", day: 1, intensivity: 2, comment: "", details: "", events: "")]), goToDetails: .constant(true))
-            .environmentObject(MyObservableObject())
     }
 }
