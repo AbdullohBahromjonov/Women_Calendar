@@ -16,12 +16,11 @@ struct CalendarView: View {
                 Color("primary pink")
                     .ignoresSafeArea()
                 VStack {
-//                    DateScrollerView()
-//                        .environmentObject(dateHolder)
-//                    DayOfWeekView()
-//                    CalendarGridView()
-//                        .environmentObject(dateHolder)
-                    MultiDatePickerExample()
+                    DateScrollerView()
+                        .environmentObject(dateHolder)
+                    DayOfWeekView()
+                    CalendarGridView()
+                        .environmentObject(dateHolder)
                 }
                 .padding(50)
             }
